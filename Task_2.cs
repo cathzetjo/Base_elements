@@ -144,6 +144,8 @@ namespace zadanie1
             Thread.Sleep(100);
             Console.WriteLine("_________");
             Console.WriteLine($"Total: {count}\n");
+            
+            Console.WriteLine($"The end");
         }
 
     }
