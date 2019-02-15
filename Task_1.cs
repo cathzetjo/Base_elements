@@ -11,8 +11,6 @@ namespace zadanie1
 
         public static void Run()
         {
-
-
             Console.WriteLine("Введите строку 'Я буду усердно делать все задания по C#'");
             string str1 = Console.ReadLine();
             string str2 = "Я буду усердно делать все задания по C#";
@@ -20,7 +18,7 @@ namespace zadanie1
             if (str1 == str2)
                 Console.WriteLine("За это ты получишь печеньку");
             else
-                Console.WriteLine("Что-то пошло не так");
+                Console.WriteLine("Вы неправы!");
 
         }
     }
